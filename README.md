@@ -1,20 +1,21 @@
-# Study Assistant — starter
+# Smart Virtual Assistant
 
-A starter repository for the CSC10014 Smart Virtual Assistant project.
+A rule-based assistant for student queries.
+
+## Prerequisites
+- Python >= 3.10
+- Git
 
 ## Setup
-
-TODO (Lab 1): write the exact steps a new teammate needs, from a fresh machine to
-running the app and the tests. Your partner will follow them without your help.
+git clone https://github.com/lhtan2537-cell/lab01--tanlelee-.git
+cd lab01--tanlelee-
+python -m venv .venv
+source .venv/Scripts/activate
+pip install -r requirements.txt
+pip install -e .
 
 ## Run
-
-TODO
+python -m assistant "where is the IT helpdesk?"
 
 ## Test
-
-TODO
-
-## Project structure
-
-TODO
+pytest -q
